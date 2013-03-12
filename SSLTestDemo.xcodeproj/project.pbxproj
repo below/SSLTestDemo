@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBB0C78916EF643900604088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB0C78816EF643900604088 /* Foundation.framework */; };
+		CBB0C78E16EF643900604088 /* SSLTestDemo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CBB0C78D16EF643900604088 /* SSLTestDemo.h */; };
+		CBB0C79016EF643900604088 /* SSLTestDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB0C78F16EF643900604088 /* SSLTestDemo.m */; };
+		CBB0C79816EF643900604088 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB0C79716EF643900604088 /* SenTestingKit.framework */; };
+		CBB0C79A16EF643900604088 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB0C79916EF643900604088 /* UIKit.framework */; };
+		CBB0C79B16EF643900604088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB0C78816EF643900604088 /* Foundation.framework */; };
+		CBB0C79E16EF643900604088 /* libSSLTestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB0C78516EF643900604088 /* libSSLTestDemo.a */; };
+		CBB0C7A416EF643900604088 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBB0C7A216EF643900604088 /* InfoPlist.strings */; };
+		CBB0C7A716EF643900604088 /* SSLTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB0C7A616EF643900604088 /* SSLTestDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBB0C79C16EF643900604088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBB0C77D16EF643900604088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBB0C78416EF643900604088;
+			remoteInfo = SSLTestDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CBB0C78316EF643900604088 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				CBB0C78E16EF643900604088 /* SSLTestDemo.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CBB0C78516EF643900604088 /* libSSLTestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSLTestDemo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB0C78816EF643900604088 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBB0C78C16EF643900604088 /* SSLTestDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSLTestDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CBB0C78D16EF643900604088 /* SSLTestDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSLTestDemo.h; sourceTree = "<group>"; };
+		CBB0C78F16EF643900604088 /* SSLTestDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSLTestDemo.m; sourceTree = "<group>"; };
+		CBB0C79616EF643900604088 /* SSLTestDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLTestDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB0C79716EF643900604088 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CBB0C79916EF643900604088 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CBB0C7A116EF643900604088 /* SSLTestDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSLTestDemoTests-Info.plist"; sourceTree = "<group>"; };
+		CBB0C7A316EF643900604088 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBB0C7A516EF643900604088 /* SSLTestDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSLTestDemoTests.h; sourceTree = "<group>"; };
+		CBB0C7A616EF643900604088 /* SSLTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSLTestDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBB0C78216EF643900604088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB0C78916EF643900604088 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB0C79216EF643900604088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB0C79816EF643900604088 /* SenTestingKit.framework in Frameworks */,
+				CBB0C79A16EF643900604088 /* UIKit.framework in Frameworks */,
+				CBB0C79B16EF643900604088 /* Foundation.framework in Frameworks */,
+				CBB0C79E16EF643900604088 /* libSSLTestDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBB0C77C16EF643900604088 = {
+			isa = PBXGroup;
+			children = (
+				CBB0C78A16EF643900604088 /* SSLTestDemo */,
+				CBB0C79F16EF643900604088 /* SSLTestDemoTests */,
+				CBB0C78716EF643900604088 /* Frameworks */,
+				CBB0C78616EF643900604088 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBB0C78616EF643900604088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBB0C78516EF643900604088 /* libSSLTestDemo.a */,
+				CBB0C79616EF643900604088 /* SSLTestDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBB0C78716EF643900604088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBB0C78816EF643900604088 /* Foundation.framework */,
+				CBB0C79716EF643900604088 /* SenTestingKit.framework */,
+				CBB0C79916EF643900604088 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBB0C78A16EF643900604088 /* SSLTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CBB0C78D16EF643900604088 /* SSLTestDemo.h */,
+				CBB0C78F16EF643900604088 /* SSLTestDemo.m */,
+				CBB0C78B16EF643900604088 /* Supporting Files */,
+			);
+			path = SSLTestDemo;
+			sourceTree = "<group>";
+		};
+		CBB0C78B16EF643900604088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBB0C78C16EF643900604088 /* SSLTestDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBB0C79F16EF643900604088 /* SSLTestDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBB0C7A516EF643900604088 /* SSLTestDemoTests.h */,
+				CBB0C7A616EF643900604088 /* SSLTestDemoTests.m */,
+				CBB0C7A016EF643900604088 /* Supporting Files */,
+			);
+			path = SSLTestDemoTests;
+			sourceTree = "<group>";
+		};
+		CBB0C7A016EF643900604088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBB0C7A116EF643900604088 /* SSLTestDemoTests-Info.plist */,
+				CBB0C7A216EF643900604088 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBB0C78416EF643900604088 /* SSLTestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB0C7AA16EF643900604088 /* Build configuration list for PBXNativeTarget "SSLTestDemo" */;
+			buildPhases = (
+				CBB0C78116EF643900604088 /* Sources */,
+				CBB0C78216EF643900604088 /* Frameworks */,
+				CBB0C78316EF643900604088 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSLTestDemo;
+			productName = SSLTestDemo;
+			productReference = CBB0C78516EF643900604088 /* libSSLTestDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CBB0C79516EF643900604088 /* SSLTestDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB0C7AD16EF643900604088 /* Build configuration list for PBXNativeTarget "SSLTestDemoTests" */;
+			buildPhases = (
+				CBB0C79116EF643900604088 /* Sources */,
+				CBB0C79216EF643900604088 /* Frameworks */,
+				CBB0C79316EF643900604088 /* Resources */,
+				CBB0C79416EF643900604088 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBB0C79D16EF643900604088 /* PBXTargetDependency */,
+			);
+			name = SSLTestDemoTests;
+			productName = SSLTestDemoTests;
+			productReference = CBB0C79616EF643900604088 /* SSLTestDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBB0C77D16EF643900604088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Alexander v. Below";
+			};
+			buildConfigurationList = CBB0C78016EF643900604088 /* Build configuration list for PBXProject "SSLTestDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBB0C77C16EF643900604088;
+			productRefGroup = CBB0C78616EF643900604088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBB0C78416EF643900604088 /* SSLTestDemo */,
+				CBB0C79516EF643900604088 /* SSLTestDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBB0C79316EF643900604088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB0C7A416EF643900604088 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CBB0C79416EF643900604088 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBB0C78116EF643900604088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB0C79016EF643900604088 /* SSLTestDemo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB0C79116EF643900604088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB0C7A716EF643900604088 /* SSLTestDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBB0C79D16EF643900604088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBB0C78416EF643900604088 /* SSLTestDemo */;
+			targetProxy = CBB0C79C16EF643900604088 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBB0C7A216EF643900604088 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBB0C7A316EF643900604088 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBB0C7A816EF643900604088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBB0C7A916EF643900604088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBB0C7AB16EF643900604088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SSLTestDemo.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSLTestDemo/SSLTestDemo-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CBB0C7AC16EF643900604088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SSLTestDemo.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSLTestDemo/SSLTestDemo-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CBB0C7AE16EF643900604088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSLTestDemo/SSLTestDemo-Prefix.pch";
+				INFOPLIST_FILE = "SSLTestDemoTests/SSLTestDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CBB0C7AF16EF643900604088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSLTestDemo/SSLTestDemo-Prefix.pch";
+				INFOPLIST_FILE = "SSLTestDemoTests/SSLTestDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBB0C78016EF643900604088 /* Build configuration list for PBXProject "SSLTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB0C7A816EF643900604088 /* Debug */,
+				CBB0C7A916EF643900604088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBB0C7AA16EF643900604088 /* Build configuration list for PBXNativeTarget "SSLTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB0C7AB16EF643900604088 /* Debug */,
+				CBB0C7AC16EF643900604088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBB0C7AD16EF643900604088 /* Build configuration list for PBXNativeTarget "SSLTestDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB0C7AE16EF643900604088 /* Debug */,
+				CBB0C7AF16EF643900604088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBB0C77D16EF643900604088 /* Project object */;
+}
