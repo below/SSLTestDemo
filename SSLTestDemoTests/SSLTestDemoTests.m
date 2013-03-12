@@ -24,9 +24,19 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testSynchronousSSLDownload
 {
-    STFail(@"Unit tests are not implemented yet in SSLTestDemoTests");
+    NSHTTPURLResponse *resp;
+    NSError *error;
+    NSData * data = [NSURLConnection sendSynchronousRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://daw.apple.com"]]
+                                   returningResponse:&resp
+                                               error:&error];
+    STAssertNotNil(data, @"Data should not be nil");
+    NSString *content = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    NSLog(@"%@", content);
+    STAssertNil(error, @"Error should be nil, but is: %@", [error description]);
+    STAssertNotNil(resp, @"There must be a response");
+    STAssertEquals([resp statusCode], 200, @"Status code should be 200 OK, but is %d", [resp statusCode]);
 }
 
 @end
