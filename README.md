@@ -1,13 +1,14 @@
-# SSLTestDemo #
+# SSLTestDemo
 
 A simple sample to show a problem with Unit Tests on the Command line using SSL
 
-## Goal ##
+## Goal
 
 Our goal is to execute our Unit Tests with in a Continuous Integration environment (Jenkins)
+
 (I believe it is essential for every question to state what exactly one is trying to achieve. Maybe the problem can actually be solved a different way)
 
-## Problem resolved so far ##
+## Problem resolved so far
 
 Running tests from the command line sounds pretty straighforward, but
 
@@ -49,6 +50,7 @@ Any input is appreciated!
 
 ## Legal Stuff ##
 ![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png "CC0")
+
 To the extent possible under law, Alexander von Below has waived all copyright and related or neighboring rights to SSLTestDemo. This work is published from: Germany.
 
 
