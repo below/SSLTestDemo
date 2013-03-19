@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7407481B16F88864009E213D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7407481A16F88864009E213D /* Security.framework */; };
 		CBB0C78916EF643900604088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB0C78816EF643900604088 /* Foundation.framework */; };
 		CBB0C78E16EF643900604088 /* SSLTestDemo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CBB0C78D16EF643900604088 /* SSLTestDemo.h */; };
 		CBB0C79016EF643900604088 /* SSLTestDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB0C78F16EF643900604088 /* SSLTestDemo.m */; };
@@ -42,6 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7407481A16F88864009E213D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		CBB0C78516EF643900604088 /* libSSLTestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSLTestDemo.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB0C78816EF643900604088 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBB0C78C16EF643900604088 /* SSLTestDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSLTestDemo-Prefix.pch"; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7407481B16F88864009E213D /* Security.framework in Frameworks */,
 				CBB0C79816EF643900604088 /* SenTestingKit.framework in Frameworks */,
 				CBB0C79A16EF643900604088 /* UIKit.framework in Frameworks */,
 				CBB0C79B16EF643900604088 /* Foundation.framework in Frameworks */,
@@ -82,6 +85,7 @@
 		CBB0C77C16EF643900604088 = {
 			isa = PBXGroup;
 			children = (
+				7407481A16F88864009E213D /* Security.framework */,
 				CBB0C78A16EF643900604088 /* SSLTestDemo */,
 				CBB0C79F16EF643900604088 /* SSLTestDemoTests */,
 				CBB0C78716EF643900604088 /* Frameworks */,
@@ -404,6 +408,7 @@
 				CBB0C7AC16EF643900604088 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBB0C7AD16EF643900604088 /* Build configuration list for PBXNativeTarget "SSLTestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +417,7 @@
 				CBB0C7AF16EF643900604088 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
